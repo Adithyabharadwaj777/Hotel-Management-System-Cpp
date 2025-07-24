@@ -1,24 +1,45 @@
 #  Hotel Management System in C++
 
-This is a simple **Hotel Management System** built using **C++** for managing hotel rooms, bookings, customer check-in/check-out, and reports. It is a menu-driven console application.
+This is a simple **Hotel Management System** written in **C++**. It allows basic room management functions such as adding rooms, checking room availability, booking (check-in), customer checkout, and generating guest reports.
+
+---
+
+##  Tech Stack
+
+- Language: **C++**
+- Environment: Console (Terminal)
+- No external libraries used
+
+---
 
 ##  Features
 
-- Add new rooms to the hotel
-- Search room availability
-- Book a room (Check-In)
-- Check available rooms
+🔹 **Room Management**
+- Add new rooms with details (AC/Non-AC, Size, Rent)
+- Search if a room exists
+
+🔹 **Booking System**
+- Book a room (Customer check-in)
+- Check-out with bill calculation
+- Store customer details during stay
+
+🔹 **Customer Service**
 - Search customer by name
-- Generate guest summary report
-- Checkout and bill generation
+- View summary of all checked-in guests
 
+🔹 **Availability**
+- View list of all available rooms
 
-##  How to Run
+---
 
-1. Make sure you have a C++ compiler (like g++, MinGW, or any IDE like Code::Blocks).
-2. Compile the code:
 
 ```bash
-g++ main.cpp -o hotel
+######## Hotel Management #########
 
-
+1. Manage Rooms
+2. Check-In Room
+3. Available Rooms
+4. Search Customer
+5. Check-Out Room
+6. Guest Summary Report
+7. Exit
